@@ -98,7 +98,7 @@ header {
   z-index: 99999; }
   header .banner {
     position: absolute;
-    left: 20px;
+    left: 200px;
     top: 18px;
     font-weight: 800; }
     header .banner a {
@@ -115,7 +115,7 @@ header {
   header .menu_list {
     display: block;
     position: absolute;
-    right: 0;
+    right: 200px;
     list-style: none;
     transition: all .1s ease-out; }
     @media screen and (max-width: 376px) {
