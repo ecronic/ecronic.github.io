@@ -28,5 +28,4 @@ window.onload = function(){
     const highloghtBlocks = document.querySelectorAll('figure.highlight')
 
     highloghtBlocks.length && highloghtBlocks.forEach( i => hljs.highlightBlock(i) )
-
 }
