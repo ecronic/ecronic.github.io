@@ -44,32 +44,16 @@
 <script>
     $(function(){
         $(".titled").typed({
-            strings: ["<h3>悬崖边的树</h3><br>"],
+            strings: ["<h2>悬崖边的树</h2><br>"],
             // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
             stringsElement: null,
             // typing speed
-            typeSpeed:5,
+            typeSpeed:1,
             // time before typing starts
             startDelay: 820,
-            // show cursor
-            showCursor: true,
-            // character for cursor
-            cursorChar: "|",
-            // attribute to type (null == text)
-            attr: null,
-            // either html or text
-            contentType: 'html',
-            // call when done callback function
-            callback: function() {},
-            // starting callback function before each string
-            preStringTyped: function() {},
-            //callback for every typed string
-            onStringTyped: function() {},
-            // callback for reset
-            resetCallback: function() {}
         });
         $(".contentd").typed({
-            strings: ["不知道是什么奇异的风<br>将一棵树吹到了那边——<br>平原的尽头<br>临近深谷的悬崖上<br>它倾听远处森林的喧哗<br>和深谷中小溪的歌唱<br>它孤独地站在那里<br>显得寂寞而又倔强<br>它的弯曲的身体<br>留下了风的形状<br>它似乎即将倾跌进深谷里<br>却又像是要展翅飞翔……"],
+            strings: ["<h4>不知道是什么奇异的风<br>将一棵树吹到了那边——<br>平原的尽头<br>临近深谷的悬崖上<br>它倾听远处森林的喧哗<br>和深谷中小溪的歌唱<br>它孤独地站在那里<br>显得寂寞而又倔强<br>它的弯曲的身体<br>留下了风的形状<br>它似乎即将倾跌进深谷里<br>却又像是要展翅飞翔……</h4>"],
             // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
             stringsElement: null,
             // typing speed
@@ -79,7 +63,7 @@
             // backspacing speed
 		    backSpeed: 10,
 		    // time before backspacing
-		    backDelay: 3000,
+		    backDelay: 30000,
             // loop
             loop: true,
             // false = infinite
