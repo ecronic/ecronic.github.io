@@ -42,7 +42,8 @@
     </section>
     <section class="post-content index-right">
         <span class="aphorism-titled"></span>
-        <span style="margin-left: 0%;" class="aphorism-contentd-one"></span>
+        <span style="margin-left: 0%;" class="aphorism-contentd-one-zh"></span>
+        <span style="margin-left: 0%;" class="aphorism-contentd-one-en"></span>
     </section>
 </article>
 <script>
@@ -72,7 +73,7 @@
             startDelay: 0,
             showCursor: false
         });
-        $(".aphorism-contentd-one").typed({
+        $(".aphorism-contentd-one-zh").typed({
             strings: ["余生没有那么长，请你忠于你自己，活的还像自己"],
             stringsElement: null,
             typeSpeed:100,
@@ -83,6 +84,19 @@
             loopCount: 5,
             showCursor: false
         });
+
+        $(".aphorism-contentd-one-en").typed({
+            strings: ["The rest of your life is not that long. Please be loyal to yourself and live like yourself."],
+            stringsElement: null,
+            typeSpeed:100,
+            startDelay: 2000,
+		    backSpeed: 0,
+		    backDelay: 30000,
+            loop: false,
+            loopCount: 5,
+            showCursor: false
+        });
+        
     });
 </script>
 
