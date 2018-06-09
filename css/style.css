@@ -234,7 +234,8 @@ header {
       width: 30%;
       display: inline-block; }
     .main article .index-right {
-      display: inline-block; }
+      display: inline-block;
+      vertical-align: top; }
     .main article .post-content {
       padding: 40px 0;
       color: #555;
