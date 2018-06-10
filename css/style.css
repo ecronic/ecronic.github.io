@@ -163,7 +163,8 @@ header {
   .main article {
     width: 70%;
     min-height: 60px;
-    margin: 20px 0; }
+    margin: 20px 0;
+    text-align: center; }
     @media screen and (max-width: 376px) {
       .main article {
         width: 80%; } }
@@ -237,7 +238,8 @@ header {
       vertical-align: top; }
     .main article .post-content {
       color: #555;
-      line-height: 1.2; }
+      line-height: 1.2;
+      text-align: left; }
       .main article .post-content h1 {
         font-size: 2em;
         margin: .6em 0; }
