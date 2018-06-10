@@ -239,6 +239,9 @@ header {
       width: 610px;
       display: inline-block;
       vertical-align: top; }
+    .main article .index-category {
+      text-align: left;
+      width: 70%; }
     .main article .post-content {
       color: #555;
       line-height: 1.2;
