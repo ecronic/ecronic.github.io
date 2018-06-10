@@ -168,6 +168,8 @@ header {
     @media screen and (max-width: 376px) {
       .main article {
         width: 80%; } }
+    .main article .index-article {
+      height: 360px; }
     .main article .post-title {
       word-break: break-all;
       border-bottom: 1px solid #ccc;
@@ -231,9 +233,10 @@ header {
           .main article .article-tag-list li a:hover {
             background: #41a0cc; }
     .main article .index-left {
-      width: 30%;
+      width: 350px;
       display: inline-block; }
     .main article .index-right {
+      width: 610px;
       display: inline-block;
       vertical-align: top; }
     .main article .post-content {
