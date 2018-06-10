@@ -160,6 +160,8 @@ header {
   @media screen and (max-width: 376px) {
     .main {
       padding-top: 80px; } }
+  .main .index-article {
+    height: 360px; }
   .main article {
     width: 70%;
     min-height: 60px;
@@ -168,8 +170,6 @@ header {
     @media screen and (max-width: 376px) {
       .main article {
         width: 80%; } }
-    .main article .index-article {
-      height: 360px; }
     .main article .post-title {
       word-break: break-all;
       border-bottom: 1px solid #ccc;
