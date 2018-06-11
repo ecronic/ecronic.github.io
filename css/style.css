@@ -244,6 +244,12 @@ header {
     .main article .index-category {
       text-align: left;
       width: 70%; }
+    .main article .category-index-list {
+      padding: 0 40px;
+      margin-top: 20px; }
+    .main article .a-style {
+      margin-right: 30px;
+      text-decoration: none; }
     .main article .post-content {
       color: #555;
       line-height: 1.2;
