@@ -171,7 +171,8 @@ header {
       .main article {
         width: 80%; } }
     .main article .category-index {
-      text-align: left; }
+      text-align: left;
+      margin-top: 50px; }
     .main article .post-title {
       word-break: break-all;
       border-bottom: 1px solid #ccc;
@@ -246,7 +247,8 @@ header {
       width: 70%; }
     .main article .category-index-list {
       padding: 0 40px;
-      margin-top: 20px; }
+      margin-top: 20px;
+      line-height: 50px; }
     .main article .a-style {
       margin-right: 30px;
       text-decoration: none; }
