@@ -170,6 +170,8 @@ header {
     @media screen and (max-width: 376px) {
       .main article {
         width: 80%; } }
+    .main article .category-index {
+      text-align: left; }
     .main article .post-title {
       word-break: break-all;
       border-bottom: 1px solid #ccc;
