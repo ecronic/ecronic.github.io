@@ -165,14 +165,13 @@ header {
   .main article {
     width: 60%;
     min-height: 60px;
-    margin: 20px 0;
+    margin: 80px 0;
     text-align: center; }
     @media screen and (max-width: 376px) {
       .main article {
         width: 80%; } }
     .main article .category-index {
-      text-align: left;
-      margin-top: 50px; }
+      text-align: left; }
     .main article .post-title {
       word-break: break-all;
       border-bottom: 1px solid #ccc;
@@ -239,7 +238,6 @@ header {
       text-align: left;
       width: 70%; }
     .main article .category-index-list {
-      padding: 0 110px;
       margin-top: 20px;
       line-height: 50px; }
     .main article .a-style {
