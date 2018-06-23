@@ -165,7 +165,7 @@ header {
   .main article {
     width: 60%;
     min-height: 60px;
-    margin: 80px 0;
+    margin: 30px 0;
     text-align: center; }
     @media screen and (max-width: 376px) {
       .main article {
@@ -245,7 +245,7 @@ header {
       text-decoration: none; }
     .main article .post-content {
       color: #555;
-      line-height: 1.5;
+      line-height: 1.8;
       text-align: left; }
       .main article .post-content h1 {
         font-size: 2em;
