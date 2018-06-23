@@ -235,13 +235,6 @@ header {
           transition: background ease .2s; }
           .main article .article-tag-list li a:hover {
             background: #41a0cc; }
-    .main article .index-left {
-      width: 350px;
-      display: inline-block; }
-    .main article .index-right {
-      width: 610px;
-      display: inline-block;
-      vertical-align: top; }
     .main article .index-category {
       text-align: left;
       width: 70%; }
