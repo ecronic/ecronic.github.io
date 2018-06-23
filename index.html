@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/tomorrow-night.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
@@ -15,64 +17,178 @@
     <span class="menu">Menu</span>
     <ul class="menu_list hide">
         
-            <li><a href="/" >Home</a></li>
+            <li><a href="/" >主页</a></li>
         
-            <li><a href="/archives" >Archives</a></li>
+            <li><a href="/technology" >海无涯</a></li>
+        
+            <li><a href="/doodle" >慢生活</a></li>
+        
+            <li><a href="/archives" >归档</a></li>
+        
+            <li><a href="/resume" >阅历</a></li>
+        
+            <li><a href="/about" >关于</a></li>
         
     </ul>
 </header>
-    <div class="main">
+    <div id="wrapper" class="main">
         
     
+        
     <article>
-    <h4 class="post-title"><i class="iconfont">&#xe609;</i><a href="/2018/06/06/index/">index</a></h4>
-    <h6 class="date"><i class="iconfont">&#xf0069;</i>2018-06-06</h6>
-    
-    <section class="md post-content">
-        
-            
-        
-        
-            
-        
-    </section>
-    
-</article>
-
-
-    
-    <article>
-    <h4 class="post-title"><i class="iconfont">&#xe609;</i><a href="/2016/06/01/hello-world/">Hello World</a></h4>
-    <h6 class="date"><i class="iconfont">&#xf0069;</i>2016-06-01</h6>
-    
-    <section class="md post-content">
-        
-            
-        
-        
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-        
-    </section>
-    
-</article>
-
-
-<div class="pagination">
-	<span class="page-number current">1</span>
-</div>
+    <div style="height: 350px;">
+        <section class="post-content">
+            <span style="margin-left: 0%; display: block;" class="aphorism-contentd-one-zh"></span>
+            <span style="margin-left: 0%; display: block; margin-bottom: 10px;" class="aphorism-contentd-one-en"></span>
+            <span style="margin-left: 0%; display: block;" class="aphorism-contentd-two-zh"></span>
+            <span style="margin-left: 0%; display: block; margin-bottom: 10px;" class="aphorism-contentd-two-en"></span>
+            <span style="margin-left: 0%; display: block;" class="aphorism-contentd-three-zh"></span>
+            <span style="margin-left: 0%; display: block; margin-bottom: 10px;" class="aphorism-contentd-three-en"></span>
+            <span style="margin-left: 0%; display: block;" class="aphorism-contentd-four-zh"></span>
+            <span style="margin-left: 0%; display: block;" class="aphorism-contentd-four-en"></span>
+        </section>
     </div>
-    <footer>
-    <div class="info"><span>Powered By <a href="https://hexo.io/" target="blank">Hexo</a></span>&nbsp;&nbsp;&nbsp;&nbsp;<span>Theme by <a href="https://github.com/showonne/hexo_showonne" target="blank">Showonne</a></span></div>
-</footer>
+    <div class="category-index">
+        <label>分类标签：</label>
+        <div class="category-index-list">
+            
+                <a class="a-style" href="">行业动态</a>
+            
+                <a class="a-style" href="">算法导论</a>
+            
+                <a class="a-style" href="">Libvirt</a>
+            
+                <a class="a-style" href="">日志处理</a>
+            
+                <a class="a-style" href="">Qemu-KVM</a>
+            
+                <a class="a-style" href="">Openstack</a>
+            
+                <a class="a-style" href="">Kubernets</a>
+            
+                <a class="a-style" href="">网络技术</a>
+            
+                <a class="a-style" href="">容器技术</a>
+            
+                <a class="a-style" href="">深度学习</a>
+            
+                <a class="a-style" href="">Go语言编程</a>
+            
+                <a class="a-style" href="">Python编程</a>
+            
+                <a class="a-style" href="">设计模式</a>
+            
+                <a class="a-style" href="">心声杂谈</a>
+            
+        </div>
+    </div>
+</article>
+<script>
+    $(function(){
+        $(".aphorism-contentd-one-zh").typed({
+            strings: ["余生没有那么长，请你忠于你自己，活的还像自己"],
+            stringsElement: null,
+            typeSpeed:100,
+            startDelay: 0,
+		    backSpeed: 0,
+		    backDelay: 30000,
+            loop: false,
+            loopCount: 5,
+            showCursor: false
+        });
+
+        $(".aphorism-contentd-one-en").typed({
+            strings: ["The rest of your life is not that long. Please be loyal to yourself and live like yourself."],
+            stringsElement: null,
+            typeSpeed:100,
+            startDelay: 0,
+		    backSpeed: 0,
+		    backDelay: 30000,
+            loop: false,
+            loopCount: 5,
+            showCursor: false
+        });
+    
+        $(".aphorism-contentd-two-zh").typed({
+            strings: ["技术唯一不变的是不断变化"],
+            stringsElement: null,
+            typeSpeed:100,
+            startDelay: 0,
+		    backSpeed: 0,
+		    backDelay: 30000,
+            loop: false,
+            loopCount: 5,
+            showCursor: false
+        });
+
+        $(".aphorism-contentd-two-en").typed({
+            strings: ["The only thing constant about technology is the constant change."],
+            stringsElement: null,
+            typeSpeed:100,
+            startDelay: 0,
+		    backSpeed: 0,
+		    backDelay: 30000,
+            loop: false,
+            loopCount: 5,
+            showCursor: false
+        });
+
+        $(".aphorism-contentd-three-zh").typed({
+            strings: ["坚持把简单的事情做好就是不简单，坚持把平凡的事情做好就是不平凡"],
+            stringsElement: null,
+            typeSpeed:100,
+            startDelay: 0,
+		    backSpeed: 0,
+		    backDelay: 30000,
+            loop: false,
+            loopCount: 5,
+            showCursor: false
+        });
+
+        $(".aphorism-contentd-three-en").typed({
+            strings: ["It is not simple to insist on doing simple things. It is not uncommon to insist on doing ordinary things well."],
+            stringsElement: null,
+            typeSpeed:100,
+            startDelay: 0,
+		    backSpeed: 0,
+		    backDelay: 30000,
+            loop: false,
+            loopCount: 5,
+            showCursor: false
+        });
+
+        $(".aphorism-contentd-four-zh").typed({
+            strings: ["目标的坚定是性格中最必要的力量源泉之一，也是成功的利器之一，没有它，天才会在矛盾无定的迷经中徒劳无功"],
+            stringsElement: null,
+            typeSpeed:100,
+            startDelay: 0,
+		    backSpeed: 0,
+		    backDelay: 30000,
+            loop: false,
+            loopCount: 5,
+            showCursor: false
+        });
+
+        $(".aphorism-contentd-four-en").typed({
+            strings: ["The firmness of the goal is one of the most necessary source of strength in character, and it is also one of the sharp weapons of success. Without it, heaven will be futile in the midst of an absurdly conflicting desire."],
+            stringsElement: null,
+            typeSpeed:100,
+            startDelay: 0,
+		    backSpeed: 0,
+		    backDelay: 30000,
+            loop: false,
+            loopCount: 5,
+            showCursor: false
+        });
+    });
+    
+</script>
+
+    
+
+    
+
+    </div>
     <script src="/js/index.js"></script>
 </body>
 </html>
