@@ -421,10 +421,6 @@ header {
     text-align: center;
     width: 100%;
     padding: 20px 0; }
-    @media screen and (max-width: 376px) {
-      .archive .year {
-        width: 90%;
-        padding: 0px !important; } }
     .archive .year a {
       text-decoration: none;
       color: #666; }
