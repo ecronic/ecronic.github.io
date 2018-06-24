@@ -413,14 +413,18 @@ header {
   align-items: center; }
   @media screen and (max-width: 376px) {
     .archive {
-      width: 90%;
-      padding-top: 0px; } }
+      width: 90% !important;
+      padding-top: 0px !important; } }
   .archive .year {
     font-size: 1.8em;
     border-bottom: 1px solid #ccc;
     text-align: center;
     width: 100%;
     padding: 20px 0; }
+    @media screen and (max-width: 376px) {
+      .archive .year {
+        width: 90%;
+        padding: 0px !important; } }
     .archive .year a {
       text-decoration: none;
       color: #666; }
