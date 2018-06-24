@@ -6,6 +6,8 @@ window.onload = function(){
         const menuList = document.querySelector('.menu_list')
         menuList.classList.toggle('hide')
         menuList.classList.toggle('show')
+        const body_content = document.querySelector('.content')
+        body_content.classList.toggle('content-global')
     }
 
     const highloghtBlocks = document.querySelectorAll('figure.highlight')
