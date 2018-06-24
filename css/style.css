@@ -412,7 +412,7 @@ header {
   align-items: center; }
   @media screen and (max-width: 376px) {
     .archive {
-      width: 100%; } }
+      width: 90%; } }
   .archive .year {
     font-size: 1.8em;
     margin-top: 20px;
