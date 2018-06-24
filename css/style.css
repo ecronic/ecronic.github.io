@@ -161,7 +161,7 @@ header {
   background: #fbfbfb; }
   @media screen and (max-width: 376px) {
     .main {
-      padding-top: 40px; } }
+      padding-top: 80px; } }
   .main .index-article {
     height: 360px; }
   .main article {
