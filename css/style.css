@@ -363,9 +363,7 @@ header {
     list-style: none;
     display: flex;
     flex-flow: row wrap;
-    margin-top: 100px;
-    justify-content: flex-start;
-    padding: 0 40px; }
+    justify-content: flex-start; }
     .main .tag-list .tag-list-item {
       margin: 20px 20px; }
       .main .tag-list .tag-list-item .tag-list-link {
