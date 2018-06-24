@@ -89,9 +89,6 @@ body {
     min-height: 100%;
     float: right; }
 
-.content-global {
-  width: 100%; }
-
 header {
   height: 50px;
   width: 100%;
@@ -413,6 +410,9 @@ header {
   display: flex;
   flex-flow: column nowrap;
   align-items: center; }
+  @media screen and (max-width: 376px) {
+    .archive {
+      width: 100%; } }
   .archive .year {
     font-size: 1.8em;
     margin-top: 20px;
