@@ -15,10 +15,12 @@ window.onload = function(){
     } ());
     const menu = document.querySelector('.menu')
 
+    this.console.log(menu)
     menu.addEventListener('click', toogleList)
 
     function toogleList(){
 
+        console.log("ddddd")
         const menuList = document.querySelector('.menu_list')
 
         menuList.classList.toggle('hide')
