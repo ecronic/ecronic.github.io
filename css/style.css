@@ -129,9 +129,11 @@ header {
     @media screen and (max-width: 376px) {
       header .menu_list.hide {
         transform: translate3d(-100%, 0, 0); } }
-    @media screen and (max-width: 376px) {
-      header .menu_list.show {
-        transform: translate3d(0, 0, 0); } }
+    header .menu_list.show {
+      right: 0 !important; }
+      @media screen and (max-width: 376px) {
+        header .menu_list.show {
+          transform: translate3d(0, 0, 0); } }
     header .menu_list li {
       float: left; }
       header .menu_list li a {
