@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
     <title>Ecronic`s Blog</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/tomorrow-night.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
@@ -12,36 +13,48 @@
     <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
-    <header>
-    <span class="banner"><a href="/">Ecronic`s Blog</a></span>
-    <span class="menu">Menu</span>
-    <ul class="menu_list hide">
-        
-            <li><a href="/" >主页</a></li>
-        
-            <li><a href="/categories/technology" >海无涯</a></li>
-        
-            <li><a href="/categories/doodle" >慢生活</a></li>
-        
-            <li><a href="/archives" >归档</a></li>
-        
-            <li><a href="/resume" >阅历</a></li>
-        
-            <li><a href="/about" >关于</a></li>
-        
-    </ul>
-</header>
     <div id="wrapper" class="main">
-        
-    <article>
-    <h1 class='post-title'>
-        <span>Ubuntu 使用笔记</span>
-    </h1>
-    <section class='post-content'>
-        
+        <header>
+    <div class="container">
+        <span class="banner"><a href="/">Ecronic`s Blog</a></span>
+        <span class="menu">Menu</span>
+        <ul class="menu_list hide">
             
-        
-        <p>使用 Ubuntu 过程中遇到的问题及解决方案。</p>
+                <li><a href="/" >主页</a></li>
+            
+                <li><a href="/categories/技术" >海无涯</a></li>
+            
+                <li><a href="/categories/生活" >慢生活</a></li>
+            
+                <li><a href="/archives" >归档</a></li>
+            
+                <li><a href="/resume" >阅历</a></li>
+            
+                <li><a href="/about" >关于</a></li>
+            
+        </ul>
+    </div>
+</header>
+        <div class="theme_block">
+    <div class="container">
+        <h2>
+            
+                <a href="http://localhost:4000">码字织文</a>
+            
+        </h2>
+    </div>
+</div>
+
+    <div class="container container-body">
+    <article>
+        <h1 class='post-title'>
+            <span>Ubuntu 使用笔记</span>
+        </h1>
+        <section class='post-content'>
+            
+                
+            
+            <p>使用 Ubuntu 过程中遇到的问题及解决方案。</p>
 <h2 id="使用-git-pull-遇到问题"><a href="#使用-git-pull-遇到问题" class="headerlink" title="使用 git pull 遇到问题"></a>使用 git pull 遇到问题</h2><p>提示</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Agent admitted failure to sign using the key.</span><br><span class="line">Permission denied (publickey).</span><br><span class="line">fatal: Could not read from remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line">and the repository exists.</span><br></pre></td></tr></table></figure>
 <p>解决方法：</p>
@@ -110,13 +123,76 @@
 <p>然后</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-add ~/.ssh/id_rsa</span><br></pre></td></tr></table></figure>
 
-    </section>
-    
-        <section id="comments">
-            
         </section>
-    
-</article>
+        
+            <section id="comments">
+                
+            </section>
+        
+    </article>
+    <div class="sidebar">
+        <div class="search">
+            <input id="search-enable" type="text" name="search-enable" value="Search">
+        </div>
+        <div class="widget">
+            <div class="widget-title">
+                <label class="category">分类</label>
+            </div>
+            <div class="category-content">
+                <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活/">生活</a><span class="category-list-count">1</span></li></ul>
+            </div>
+        </div>
+
+        <div class="widget">
+            <div class="widget-title">
+                <label class="tags">标签</label>
+            </div>
+            <div class="tags-content">
+                <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/TCP/">TCP</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/网络协议/">网络协议</a><span class="tag-list-count">2</span></li></ul>
+            </div>
+        </div>
+        <div class="widget">
+            <div class="widget-title">
+                <label class="articles">最近文章</label>
+            </div>
+            <div class="articles-content">
+                <ul>
+                    
+                    
+                        
+                            
+                            <li>
+                                <a href="/2017/11/22/2016-01-12-use-ubuntu-notes/">Ubuntu 使用笔记</a>
+                            </li>
+                        
+                    
+                        
+                            
+                            <li>
+                                <a href="/2018/05/02/2017-04-09-a-difficult-decision/">我做了一个有点艰难的决定</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="widget">
+            <div class="widget-title">
+                <label class="links">友情链接</label>
+            </div>
+            <div class="links-content">
+                <ul>
+                    <li>
+                        <a href="https://www.haomwei.com/">屠城</a>
+                    </li>
+                    <li>
+                        <a href="https://www.haomwei.com/">屠城</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
     </div>
     <script src="/js/index.js"></script>
