@@ -206,9 +206,8 @@ header {
 
 @media (min-width: 1200px) {
       .container .archive .year {
-        font-size: 1.8em;
+        font-size: x-large;
         border-bottom: 1px solid #ccc;
-        text-align: center;
         width: 100%;
         padding: 20px 0; }
         .container .archive .year a {
@@ -222,7 +221,7 @@ header {
           height: 30px; }
         .container .archive .archive_item .title {
           color: inherit;
-          font-size: x-large;
+          font-size: medium;
           text-decoration: none;
           transition: color ease .2s; }
           .container .archive .archive_item .title:hover {
