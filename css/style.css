@@ -72,10 +72,10 @@ html, body {
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  background: #fbfbfb; }
+  background: #ffffff; }
 
 ::selection {
-  color: #fbfbfb;
+  color: #ffffff;
   background: #204264; }
 
 .inner {
@@ -399,20 +399,28 @@ header {
         justify-content: flex-start; }
         .container .sidebar .widget .category-content .category-list .category-list-item {
           padding-top: 12px;
-          margin: 0px; }
+          margin: -20px 0px 0px 0px; }
           .container .sidebar .widget .category-content .category-list .category-list-item .category-list-link {
-            text-decoration: none;
-            font-size: smaller;
-            color: black;
-            transition: background ease .2s;
-            text-decoration: none;
-            background: transparent;
-            padding: 0; }
+            display: none; }
           .container .sidebar .widget .category-content .category-list .category-list-item .category-list-count {
-            color: black;
-            font-size: smaller;
-            padding: 10px 10px;
-            background: transparent; }
+            display: none; }
+          .container .sidebar .widget .category-content .category-list .category-list-item .category-list-child .category-list-item {
+            margin: 0; }
+            .container .sidebar .widget .category-content .category-list .category-list-item .category-list-child .category-list-item .category-list-link {
+              display: initial;
+              padding-top: 12px;
+              font-size: smaller;
+              color: black;
+              transition: background ease .2s;
+              text-decoration: none;
+              background: transparent;
+              padding: 0; }
+            .container .sidebar .widget .category-content .category-list .category-list-item .category-list-child .category-list-item .category-list-count {
+              display: initial;
+              color: black;
+              font-size: smaller;
+              padding: 10px 10px;
+              background: transparent; }
       .container .sidebar .widget .tags-content .tag-list {
         list-style: none;
         flex-flow: row wrap;
@@ -448,7 +456,7 @@ header {
   padding: 50px 0;
   width: 100%;
   overflow: hidden;
-  background: #fbfbfb; }
+  background: #ffffff; }
   @media screen and (max-width: 376px) {
     .main {
       padding-top: 80px; } }
@@ -572,7 +580,7 @@ header {
           font-family: -webkit-pictograph;
           background: #efefef; }
       .main article .post-content p {
-        font-size: 1.2em; }
+        font-size: 15px; }
       .main article .post-content > p {
         margin: 1em 0;
         line-height: 1.5; }
