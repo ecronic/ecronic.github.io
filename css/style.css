@@ -236,7 +236,7 @@ header {
         .container .archive .archive_item .description {
           padding-top: 20px; }
         .container .archive .archive_item .classify {
-          padding-top: 5px;
+          padding-top: 15px;
           display: inline-block; }
           .container .archive .archive_item .classify .color-0 {
             background: #88acdb; }
@@ -318,6 +318,7 @@ header {
         .container .archive .archive_item .readmore {
           display: inline-block;
           padding-top: 20px;
+          margin-right: -8%;
           float: right; }
           .container .archive .archive_item .readmore a {
             opacity: 0.9;
