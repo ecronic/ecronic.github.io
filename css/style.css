@@ -195,7 +195,6 @@ header {
       text-decoration: none; }
     .container .archive {
       width: 70%;
-      padding-top: 20px;
       display: inline-block;
       flex-flow: column nowrap;
       align-items: center; } }
@@ -218,7 +217,7 @@ header {
       .container .archive .archive_item {
         color: #555555;
         width: 100%;
-        padding-top: 15px; }
+        padding-top: 40px; }
         .container .archive .archive_item .title {
           color: inherit;
           font-size: medium;
@@ -237,7 +236,7 @@ header {
         .container .archive .archive_item .description {
           padding-top: 20px; }
         .container .archive .archive_item .classify {
-          padding-top: 20px;
+          padding-top: 5px;
           display: inline-block; }
           .container .archive .archive_item .classify .color-0 {
             background: #88acdb; }
@@ -318,8 +317,7 @@ header {
           color: gray; }
         .container .archive .archive_item .readmore {
           display: inline-block;
-          padding-top: 25px;
-          padding-right: 50px;
+          padding-top: 20px;
           float: right; }
           .container .archive .archive_item .readmore a {
             opacity: 0.9;
