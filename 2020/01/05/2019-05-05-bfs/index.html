@@ -45,134 +45,25 @@
     </div>
 </div>
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-<div class="container container-body">
-    <div class="archive">
-        
-            <div class="archive_item">
-                <a class="title" href="/2020/01/05/2019-05-05-dfs/">DFS原理及应用</a>
-                <div class="date">2020年01月05日</div>
-                <div class="description">DFS原理及应用</div>
-                <div class="classify">
-                    <a class="color-0" href="">技术</a>
-                </div>
-                <div class="tags">
-                    
-                        <a class="color-1" href="">Libvirt</a>
-                    
-                    
-                        <a class="color-2" href="">虚拟化</a>
-                    
-                    
-                </div>
-                <div class="readmore">
-                    <a class="more" href="/2020/01/05/2019-05-05-dfs/">阅读全文</a>
-                </div>
-            </div>
-        
-            <div class="archive_item">
-                <a class="title" href="/2020/01/05/2019-05-05-bfs/">BFS原理及应用</a>
-                <div class="date">2020年01月05日</div>
-                <div class="description">BFS原理及应用</div>
-                <div class="classify">
-                    <a class="color-0" href="">技术</a>
-                </div>
-                <div class="tags">
-                    
-                        <a class="color-1" href="">算法</a>
-                    
-                    
-                        <a class="color-2" href="">栈</a>
-                    
-                    
-                </div>
-                <div class="readmore">
-                    <a class="more" href="/2020/01/05/2019-05-05-bfs/">阅读全文</a>
-                </div>
-            </div>
-        
-            <div class="archive_item">
-                <a class="title" href="/2020/01/05/2019-05-05-stack/">C++栈的原理及应用</a>
-                <div class="date">2020年01月05日</div>
-                <div class="description">C++栈的原理及应用</div>
-                <div class="classify">
-                    <a class="color-0" href="">技术</a>
-                </div>
-                <div class="tags">
-                    
-                        <a class="color-1" href="">Libvirt</a>
-                    
-                    
-                        <a class="color-2" href="">虚拟化</a>
-                    
-                    
-                </div>
-                <div class="readmore">
-                    <a class="more" href="/2020/01/05/2019-05-05-stack/">阅读全文</a>
-                </div>
-            </div>
-        
-            <div class="archive_item">
-                <a class="title" href="/2019/04/07/2019-04-07-libvirt-api/">Libvirt API开发指南</a>
-                <div class="date">2019年04月07日</div>
-                <div class="description">LibVirt 是一套用于控制虚拟化的API，除了提供了一套无关具体虚拟化细节的API 之外，还提供了一个daemon（libvirtd) 和一个控制台工具（virsh）。本文演示了如何在LibVirt 中新加一个API，并且在libvirtd 和virsh 中使用新的API 完成新的功能。</div>
-                <div class="classify">
-                    <a class="color-0" href="">技术</a>
-                </div>
-                <div class="tags">
-                    
-                        <a class="color-1" href="">Libvirt</a>
-                    
-                    
-                        <a class="color-2" href="">虚拟化</a>
-                    
-                    
-                </div>
-                <div class="readmore">
-                    <a class="more" href="/2019/04/07/2019-04-07-libvirt-api/">阅读全文</a>
-                </div>
-            </div>
-        
-            <div class="archive_item">
-                <a class="title" href="/2017/11/22/2016-01-12-use-ubuntu-notes/">Ubuntu 使用笔记</a>
-                <div class="date">2017年11月22日</div>
-                <div class="description">使用 Ubuntu 遇到一些问题，笔记在此备忘。</div>
-                <div class="classify">
-                    <a class="color-0" href="">技术</a>
-                </div>
-                <div class="tags">
-                    
-                        <a class="color-1" href="">网络协议</a>
-                    
-                    
-                        <a class="color-2" href="">TCP</a>
-                    
-                    
-                </div>
-                <div class="readmore">
-                    <a class="more" href="/2017/11/22/2016-01-12-use-ubuntu-notes/">阅读全文</a>
-                </div>
-            </div>
-        
-        <div class="pagination">
+    <div class="container container-body">
+    <article>
+        <h1 class='post-title'>
+            <span>BFS原理及应用</span>
+        </h1>
+        <section class='post-content'>
             
-        </div>
-    </div>
+                
+            
+            <h4 id="BFS原理"><a href="#BFS原理" class="headerlink" title="BFS原理"></a>BFS原理</h4><p>​<br>主要应用于连通图的遍历，它的核心思想是从一个顶点开始，辐射状地优先遍历其周围较广的区域，即逐层遍历，BFS最经典的应用场景为最短路径，很多最短路径算法都是基于BFS实现，BFS通常基于队列的思想实现，其实现过程如下：<br>​        1、顶点入队列<br>​        2、队列为空，算法结束，队列非空，算法继续执行<br>​        3、出队列取得队头元素<br>​        4、查找队头元素所有子节点，未遍历则依次入队<br>​        5、转步骤2</p>
+<h4 id="伪代码"><a href="#伪代码" class="headerlink" title="伪代码"></a>伪代码</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">BFS</span><span class="params">(Node n)</span></span>&#123;</span><br><span class="line">        Queue q; <span class="comment">//定义队列</span></span><br><span class="line">        q.push(n);	<span class="comment">//顶点节点入栈</span></span><br><span class="line">        visit(n);</span><br><span class="line">        <span class="keyword">while</span>(!q.empty()) &#123;</span><br><span class="line">                Node front = q.front();</span><br><span class="line">                <span class="keyword">if</span> (check(front)) &#123;</span><br><span class="line">                        <span class="keyword">return</span> <span class="literal">true</span>;	<span class="comment">//检查节点状态是否为目标状态</span></span><br><span class="line">                &#125;</span><br><span class="line">                q.pop();	<span class="comment">//队首出队</span></span><br><span class="line">                <span class="keyword">for</span> (Node x in front) &#123;	<span class="comment">//遍历当前节点的邻节点</span></span><br><span class="line">                        <span class="keyword">if</span> (!visited(x)) &#123;</span><br><span class="line">                                q.push(x);	<span class="comment">//为访问的节点进入队列</span></span><br><span class="line">                                visit(x);	<span class="comment">//标记当前节点已访问</span></span><br><span class="line">                        &#125;</span><br><span class="line">                &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+        </section>
+        
+            <section id="comments">
+                
+            </section>
+        
+    </article>
     <div class="sidebar">
         <div class="search">
             <input id="search-enable" type="text" name="search-enable" value="Search">

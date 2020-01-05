@@ -45,134 +45,27 @@
     </div>
 </div>
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-<div class="container container-body">
-    <div class="archive">
-        
-            <div class="archive_item">
-                <a class="title" href="/2020/01/05/2019-05-05-dfs/">DFS原理及应用</a>
-                <div class="date">2020年01月05日</div>
-                <div class="description">DFS原理及应用</div>
-                <div class="classify">
-                    <a class="color-0" href="">技术</a>
-                </div>
-                <div class="tags">
-                    
-                        <a class="color-1" href="">Libvirt</a>
-                    
-                    
-                        <a class="color-2" href="">虚拟化</a>
-                    
-                    
-                </div>
-                <div class="readmore">
-                    <a class="more" href="/2020/01/05/2019-05-05-dfs/">阅读全文</a>
-                </div>
-            </div>
-        
-            <div class="archive_item">
-                <a class="title" href="/2020/01/05/2019-05-05-bfs/">BFS原理及应用</a>
-                <div class="date">2020年01月05日</div>
-                <div class="description">BFS原理及应用</div>
-                <div class="classify">
-                    <a class="color-0" href="">技术</a>
-                </div>
-                <div class="tags">
-                    
-                        <a class="color-1" href="">算法</a>
-                    
-                    
-                        <a class="color-2" href="">栈</a>
-                    
-                    
-                </div>
-                <div class="readmore">
-                    <a class="more" href="/2020/01/05/2019-05-05-bfs/">阅读全文</a>
-                </div>
-            </div>
-        
-            <div class="archive_item">
-                <a class="title" href="/2020/01/05/2019-05-05-stack/">C++栈的原理及应用</a>
-                <div class="date">2020年01月05日</div>
-                <div class="description">C++栈的原理及应用</div>
-                <div class="classify">
-                    <a class="color-0" href="">技术</a>
-                </div>
-                <div class="tags">
-                    
-                        <a class="color-1" href="">Libvirt</a>
-                    
-                    
-                        <a class="color-2" href="">虚拟化</a>
-                    
-                    
-                </div>
-                <div class="readmore">
-                    <a class="more" href="/2020/01/05/2019-05-05-stack/">阅读全文</a>
-                </div>
-            </div>
-        
-            <div class="archive_item">
-                <a class="title" href="/2019/04/07/2019-04-07-libvirt-api/">Libvirt API开发指南</a>
-                <div class="date">2019年04月07日</div>
-                <div class="description">LibVirt 是一套用于控制虚拟化的API，除了提供了一套无关具体虚拟化细节的API 之外，还提供了一个daemon（libvirtd) 和一个控制台工具（virsh）。本文演示了如何在LibVirt 中新加一个API，并且在libvirtd 和virsh 中使用新的API 完成新的功能。</div>
-                <div class="classify">
-                    <a class="color-0" href="">技术</a>
-                </div>
-                <div class="tags">
-                    
-                        <a class="color-1" href="">Libvirt</a>
-                    
-                    
-                        <a class="color-2" href="">虚拟化</a>
-                    
-                    
-                </div>
-                <div class="readmore">
-                    <a class="more" href="/2019/04/07/2019-04-07-libvirt-api/">阅读全文</a>
-                </div>
-            </div>
-        
-            <div class="archive_item">
-                <a class="title" href="/2017/11/22/2016-01-12-use-ubuntu-notes/">Ubuntu 使用笔记</a>
-                <div class="date">2017年11月22日</div>
-                <div class="description">使用 Ubuntu 遇到一些问题，笔记在此备忘。</div>
-                <div class="classify">
-                    <a class="color-0" href="">技术</a>
-                </div>
-                <div class="tags">
-                    
-                        <a class="color-1" href="">网络协议</a>
-                    
-                    
-                        <a class="color-2" href="">TCP</a>
-                    
-                    
-                </div>
-                <div class="readmore">
-                    <a class="more" href="/2017/11/22/2016-01-12-use-ubuntu-notes/">阅读全文</a>
-                </div>
-            </div>
-        
-        <div class="pagination">
+    <div class="container container-body">
+    <article>
+        <h1 class='post-title'>
+            <span>C++栈的原理及应用</span>
+        </h1>
+        <section class='post-content'>
             
-        </div>
-    </div>
+                
+            
+            <h3 id="栈的原理"><a href="#栈的原理" class="headerlink" title="栈的原理"></a>栈的原理</h3><p>栈（stack）是一种数据结构，它按照后进先出（LIFO）的原则存储数据，先进入的数据被压入栈底，最后的数据在栈顶，需要读数据的时候从栈顶开始弹出数据。</p>
+<h3 id="stack用法介绍"><a href="#stack用法介绍" class="headerlink" title="stack用法介绍"></a>stack用法介绍</h3><h4 id="头文件"><a href="#头文件" class="headerlink" title="头文件"></a>头文件</h4><p>​        #include<stack></stack></p>
+<h4 id="成员函数"><a href="#成员函数" class="headerlink" title="成员函数"></a>成员函数</h4><p>​        empty() 判断堆栈是否为空，为空则返回真<br>​        pop() 出栈，移除栈顶元素（不会返回栈顶元素的值）<br>​        push() 入栈，在栈顶增加元素<br>​        size() 返回栈中元素数目<br>​        top() 返回栈顶元素</p>
+<h4 id="数组模拟栈"><a href="#数组模拟栈" class="headerlink" title="数组模拟栈"></a>数组模拟栈</h4><p>​        伪代码示例：</p>
+<h4 id="栈的变体–单调栈"><a href="#栈的变体–单调栈" class="headerlink" title="栈的变体–单调栈"></a>栈的变体–单调栈</h4>
+        </section>
+        
+            <section id="comments">
+                
+            </section>
+        
+    </article>
     <div class="sidebar">
         <div class="search">
             <input id="search-enable" type="text" name="search-enable" value="Search">
